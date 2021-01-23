@@ -71,6 +71,7 @@ a {
 	background-image: url(../images/jalyuzi/background.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	background-attachment: fixed;
 	position: relative;
 	z-index: 10;
 	text-shadow: 0px 0px 30px black;
@@ -120,6 +121,7 @@ a {
 }
 .intro__list_item {
 	font-size: 1.2rem;
+	text-shadow: 0px 0px 10px black;
 }
 .intro__button {
 	border: none;
@@ -659,7 +661,7 @@ a {
 }
 @media(max-width: 991px) {
 	.testimonials .img_1 img {
-		width: 120%;
+		width: 150%;
 		height: 110%;
 	}	
 }
@@ -693,8 +695,10 @@ a {
 	}	
 }
 .testimonials .img_2 img{
-	width: 100%;
-	height: 110%
+	width: 120%;
+	height: 120%;
+	margin-top: 5%;
+	margin-left: -20%;
 }
 @media(max-width: 991px) {
 	.testimonials .img_2 img {
@@ -711,6 +715,7 @@ a {
 	.testimonials .img_2 img{
 		width: 180%;
 		height: 110%;
+		margin-left: -50%;
 	}	
 }
 .testimonials .img_3 img{
@@ -726,17 +731,18 @@ a {
 @media(max-width: 767px) {
 	.testimonials .img_3 {
 		height: 240px;
+		
 	}	
 }
 @media(max-width: 390px) {
 	.testimonials .img_3 img {
-		width: 170%;
+		width: 150%;
 		height: 110%;
 	}	
 }
 @media(max-width: 340px) {
 	.testimonials .img_3 img {
-		width: 190%;
+		width: 160%;
 		height: 110%;
 	}	
 }
