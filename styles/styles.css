@@ -684,13 +684,13 @@ a {
 		height: 260px;
 	}	
 	.testimonials .img_1 img {
-		width: 180%;
+		width: 190%;
 		height: 110%;
 	}
 }
 @media(max-width: 345px) {
 	.testimonials .img_1 img {
-		width: 200%;
+		width: 220%;
 		height: 110%;
 	}	
 }
@@ -736,13 +736,13 @@ a {
 }
 @media(max-width: 390px) {
 	.testimonials .img_3 img {
-		width: 150%;
+		width: 160%;
 		height: 110%;
 	}	
 }
 @media(max-width: 340px) {
 	.testimonials .img_3 img {
-		width: 160%;
+		width: 180%;
 		height: 110%;
 	}	
 }
