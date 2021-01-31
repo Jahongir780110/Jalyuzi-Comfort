@@ -466,9 +466,12 @@ a {
 	margin-top: 100px;
 }
 .aboutUs .aboutUs__cotent {
-	padding-top: 160px;
-	padding-bottom: 160px;
+	/*padding-top: 160px;
+	padding-bottom: 160px;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background-color: #f6f6f6;
+	font-size: 0.9rem;
 }
 .aboutUs .aboutUs__content_title {
 	font-size: 2.4rem;
