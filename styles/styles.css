@@ -97,6 +97,9 @@ a {
 	.introduction {
 		background-size: 200% 100%;
 		background-position-x: 20%;
+		background-attachment: unset;
+	-webkit-background-attachment: unset;
+	-moz-background-attachment: unset;
 	}	
 }
 .introduction .intro__title_top{
@@ -154,6 +157,8 @@ a {
 @media(max-width: 450px) {
 	.introduction {
 		padding: 50px 30px;
+		background-position-x: 20%;
+		background-size: 240% 100%;
 	}
 	.introduction .intro__title_top {
 		font-size: 1.4rem;
@@ -171,6 +176,7 @@ a {
 @media(max-width: 340px) {
 	.introduction {
 		padding: 30px 20px;
+		background-size: 280% 100%;
 	}
 	.introduction .intro__title_top {
 		font-size: 1.2rem;
